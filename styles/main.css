@@ -10,14 +10,14 @@
 
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     font-family: mplantin;
     font-size: 10pt;
     color: #333;
 }
 
-html { 
-  background: url(../images/forest.jpg) no-repeat center center fixed; 
+html {
+  background: url(../images/forest.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -155,12 +155,12 @@ html {
 	width: 320px;
 	height: 440px;
 	border: 10px solid white;
-    -webkit-border-radius: 14px; 
-    -moz-border-radius: 14px; 
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
   	border-radius: 14px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-	box-sizing: border-box;  
+	box-sizing: border-box;
     padding: 15px;
     -webkit-box-shadow: 0px 0px 7px 7px rgba(50, 50, 50, 0.5);
     -moz-box-shadow: 0px 0px 7px 7px rgba(50, 50, 50, 0.5);
@@ -238,17 +238,17 @@ html {
     font-size: 110%;
 }
 
-#lead, #input, #artefacts ul>li {
+.lead, .input, .artefacts ul>li {
     float: left;
     width: 50%;
 }
 
-#players, #output {
+.players, .output {
     float: right;
     width: 50%;
 }
 
-#frequency {
+.frequency {
     position: absolute;
     bottom: 10px;
     width: 100%;
